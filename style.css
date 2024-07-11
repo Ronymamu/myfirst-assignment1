@@ -24,3 +24,46 @@ section {
   padding: 16px 18px;
   color: black;
 }
+
+
+.Mylogo {
+  font-size: 24px;
+}
+
+
+
+.poster {
+  background-image: url("./assets/Hero-bg.png");
+  background-size: cover;
+  background-position-y: center;
+  padding: 30px 0;
+}
+
+
+.poster > div {
+  gap: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.poster > div > p {
+  color: gray;
+}
+
+.poster > div > a {
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  background-color: black;
+  padding: 18px;
+}
+
+.poster > div > img {
+  width: 205px;
+}
+
+
+
