@@ -163,3 +163,110 @@ section {
 
 
 
+/* -------------------- */
+
+
+
+.boxs {
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  flex-direction: row;
+  margin-bottom: 22px;
+  display: flex;
+}
+
+.boxs > div:first-child {
+  background-color: rgba(0, 136, 255, 0.282);
+}
+.boxs > div {
+  border-radius: 8px;
+  background-color: rgba(255, 0, 0, 0.161);
+  display: flex;
+  padding: 41px;
+  gap: 21px;
+  justify-content: center;
+  flex-direction: column;
+}
+.boxs > div > img {
+  width: 81px;
+}
+.boxs > div > a {
+  font-weight: 901;
+  color: rgb(21, 21, 21);
+}
+.boxs > div:last-child {
+  background-color: rgba(8, 253, 0, 0.164);
+}
+
+
+/*  end ================ */
+
+
+
+.communication {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.communication > div {
+  background-position-y: center;
+  background-image: url("./assets/handshake.jpg");
+  height: 312px;
+  background-size: cover;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+}
+
+
+
+.communication > div > p {
+  color: rgb(95, 95, 95);
+}
+
+.communication > div > h1 {
+  color: white;
+}
+
+
+
+.inputbox > button {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 11px;
+}
+.inputbox > input {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+}
+
+/* end =============== */
+
+
+
+
+.footer {
+  padding: 21px;
+  background-color: rgb(216, 216, 216);
+  margin-top: 41px;
+}
+
+.MEDIAid {
+  gap: 21px;
+  display: flex;
+}
+.footer > div {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+
