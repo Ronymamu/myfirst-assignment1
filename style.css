@@ -67,3 +67,79 @@ section {
 
 
 
+
+.divbox {
+  padding: 99px 0px;
+}
+.divbox > div {
+  background-color: rgba(231, 231, 231, 0.307);
+  border-radius: 20px;
+}
+
+.mainBoxes > h1 {
+  margin-bottom: 10px;
+}
+.mainBoxes {
+  padding: 55px 00;
+  text-align: center;
+}
+
+
+
+/* ===================to  */
+
+.flexboxes {
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  display: flex;
+}
+.singlebox {
+  flex-direction: row;
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  justify-content: space-between;
+  width: 698px;
+  align-items: center;
+  border-radius: 21px;
+}
+
+.namItem {
+  flex-direction: column;
+  width: 351px;
+  gap: 19px;
+  display: flex;
+}
+
+.namItem > a {
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  padding: 14px 19px;
+  font-size: 21px;
+  text-align: center;
+  width: 101px;
+}
+
+
+
+
+
+
+
+.namItem:nth-child(2) {
+  justify-content: start;
+  gap: 20px;
+}
+
+.namItem:last-child {
+  margin-bottom: 40px;
+}
+
+
+
+/* ------------------- */
+
+
+
